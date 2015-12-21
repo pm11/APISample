@@ -1,0 +1,4 @@
+github "Hearst-DD/ObjectMapper" "1.0.1"
+github "antitypical/Result" "1.0.1"
+github "ReactiveX/RxSwift" "2.0.0-beta.4"
+github "ishkawa/APIKit" "1.1.2"
