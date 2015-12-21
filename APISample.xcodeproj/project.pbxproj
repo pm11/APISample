@@ -12,6 +12,15 @@
 		542B5A041C2394620067B67E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542B5A021C2394620067B67E /* Main.storyboard */; };
 		542B5A061C2394620067B67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542B5A051C2394620067B67E /* Assets.xcassets */; };
 		542B5A091C2394620067B67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542B5A071C2394620067B67E /* LaunchScreen.storyboard */; };
+		542B5A121C23AD560067B67E /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542B5A111C23AD560067B67E /* GitHubRepository.swift */; };
+		542B5A1A1C23AE6D0067B67E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B5A141C23AE6D0067B67E /* RxCocoa.framework */; };
+		542B5A1B1C23AE6D0067B67E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B5A151C23AE6D0067B67E /* RxBlocking.framework */; };
+		542B5A1C1C23AE6D0067B67E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B5A161C23AE6D0067B67E /* ObjectMapper.framework */; };
+		542B5A1D1C23AE6D0067B67E /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B5A171C23AE6D0067B67E /* APIKit.framework */; };
+		542B5A1E1C23AE6D0067B67E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B5A181C23AE6D0067B67E /* Result.framework */; };
+		542B5A201C23B7200067B67E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B5A131C23AE6D0067B67E /* RxSwift.framework */; };
+		542B5A231C23C2870067B67E /* GitHubRepositoryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542B5A221C23C2870067B67E /* GitHubRepositoryAPI.swift */; };
+		542B5A291C259D060067B67E /* Session+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542B5A281C259D060067B67E /* Session+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		542B5A051C2394620067B67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542B5A081C2394620067B67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		542B5A0A1C2394620067B67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542B5A111C23AD560067B67E /* GitHubRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		542B5A131C23AE6D0067B67E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		542B5A141C23AE6D0067B67E /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		542B5A151C23AE6D0067B67E /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		542B5A161C23AE6D0067B67E /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		542B5A171C23AE6D0067B67E /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		542B5A181C23AE6D0067B67E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		542B5A221C23C2870067B67E /* GitHubRepositoryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryAPI.swift; sourceTree = "<group>"; };
+		542B5A281C259D060067B67E /* Session+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Session+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542B5A201C23B7200067B67E /* RxSwift.framework in Frameworks */,
+				542B5A1A1C23AE6D0067B67E /* RxCocoa.framework in Frameworks */,
+				542B5A1B1C23AE6D0067B67E /* RxBlocking.framework in Frameworks */,
+				542B5A1C1C23AE6D0067B67E /* ObjectMapper.framework in Frameworks */,
+				542B5A1D1C23AE6D0067B67E /* APIKit.framework in Frameworks */,
+				542B5A1E1C23AE6D0067B67E /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +62,12 @@
 		542B59F21C2394620067B67E = {
 			isa = PBXGroup;
 			children = (
+				542B5A131C23AE6D0067B67E /* RxSwift.framework */,
+				542B5A141C23AE6D0067B67E /* RxCocoa.framework */,
+				542B5A151C23AE6D0067B67E /* RxBlocking.framework */,
+				542B5A161C23AE6D0067B67E /* ObjectMapper.framework */,
+				542B5A171C23AE6D0067B67E /* APIKit.framework */,
+				542B5A181C23AE6D0067B67E /* Result.framework */,
 				542B59FD1C2394620067B67E /* APISample */,
 				542B59FC1C2394620067B67E /* Products */,
 			);
@@ -54,14 +84,33 @@
 		542B59FD1C2394620067B67E /* APISample */ = {
 			isa = PBXGroup;
 			children = (
+				542B5A211C23C2630067B67E /* API */,
+				542B5A101C23ACFD0067B67E /* Entity */,
 				542B59FE1C2394620067B67E /* AppDelegate.swift */,
 				542B5A001C2394620067B67E /* ViewController.swift */,
 				542B5A021C2394620067B67E /* Main.storyboard */,
 				542B5A051C2394620067B67E /* Assets.xcassets */,
 				542B5A071C2394620067B67E /* LaunchScreen.storyboard */,
 				542B5A0A1C2394620067B67E /* Info.plist */,
+				542B5A281C259D060067B67E /* Session+Extension.swift */,
 			);
 			path = APISample;
+			sourceTree = "<group>";
+		};
+		542B5A101C23ACFD0067B67E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				542B5A111C23AD560067B67E /* GitHubRepository.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		542B5A211C23C2630067B67E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				542B5A221C23C2870067B67E /* GitHubRepositoryAPI.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +123,7 @@
 				542B59F71C2394620067B67E /* Sources */,
 				542B59F81C2394620067B67E /* Frameworks */,
 				542B59F91C2394620067B67E /* Resources */,
+				542B5A1F1C23B0440067B67E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,11 +179,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		542B5A1F1C23B0440067B67E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Carthage/Build/iOS/APIKit.framework",
+				"${SRCROOT}/Carthage/Build/iOS/ObjectMapper.framework",
+				"${SRCROOT}/Carthage/Build/iOS/Result.framework",
+				"${SRCROOT}/Carthage/Build/iOS/RxBlocking.framework",
+				"${SRCROOT}/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		542B59F71C2394620067B67E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542B5A291C259D060067B67E /* Session+Extension.swift in Sources */,
+				542B5A121C23AD560067B67E /* GitHubRepository.swift in Sources */,
+				542B5A231C23C2870067B67E /* GitHubRepositoryAPI.swift in Sources */,
 				542B5A011C2394620067B67E /* ViewController.swift in Sources */,
 				542B59FF1C2394620067B67E /* AppDelegate.swift in Sources */,
 			);
@@ -246,6 +321,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = APISample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.APISample;
@@ -257,6 +336,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = APISample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.APISample;
@@ -283,6 +366,7 @@
 				542B5A0F1C2394620067B67E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
